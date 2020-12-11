@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "aprendo-en-casa-app"
+  "defaultProject": "aprendo-en-casa-app",
+  "cli": {
+    "analytics": "a16e07e8-5fea-4acc-a58b-7ecba14d939a"
+  }
 }
