@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatematicaService} from '../../servicios/matematica.service';
 
 @Component({
   selector: 'app-matematicas',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MatematicasComponent implements OnInit {
 
-  constructor() { }
+  constructor( private _MATEMATICASSERVICE:MatematicaService) { }
 
   ngOnInit(): void {
   }

@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 
 //Servicios
-
+import { MatematicaService } from './servicios/matematica.service';
 
 //Componentes
 import { AppComponent } from './app.component';
@@ -28,6 +28,7 @@ import { EstadisticasComponent } from './components/estadisticas/estadisticas.co
     AppRoutingModule
   ],
   providers: [
+    MatematicaService
   ],
   bootstrap: [AppComponent]
 })
